@@ -4,14 +4,9 @@ builds:
   - main: cmd/chirpstack-network-server/main.go
     binary: chirpstack-network-server
     goos:
-      - windows
-      - darwin
       - linux
     goarch:
       - amd64
-      - 386
-      - arm
-      - arm64
     goarm:
       - 5
       - 6
